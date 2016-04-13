@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "reactProject",
   "version": "1.0.0",
   "description": "This will be a quick overview for react",
   "main": "index.js",
@@ -25,6 +25,8 @@
   },
   "dependencies": {
     "history": "^1.13.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
     "react-router": "^1.0.1"
   }
 }
