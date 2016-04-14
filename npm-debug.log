@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react@',
+1 verbose cli   '0.14.1' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of c:\React\package.json
+5 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-core\package.json
+6 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-loader\package.json
+7 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-preset-es2015\package.json
+8 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-preset-react\package.json
+9 verbose installManyTop reading scoped package data from c:\React\node_modules\firebase\package.json
+10 verbose installManyTop reading scoped package data from c:\React\node_modules\history\package.json
+11 verbose installManyTop reading scoped package data from c:\React\node_modules\react\package.json
+12 verbose installManyTop reading scoped package data from c:\React\node_modules\react-dom\package.json
+13 verbose installManyTop reading scoped package data from c:\React\node_modules\react-router\package.json
+14 verbose installManyTop reading scoped package data from c:\React\node_modules\reactfire\package.json
+15 verbose installManyTop reading scoped package data from c:\React\node_modules\webpack\package.json
+16 info package.json firebase@2.4.2 No license field.
+17 verbose readDependencies loading dependencies from c:\React\package.json
+18 silly cache add args [ 'react@', null ]
+19 verbose cache add spec react@
+20 silly cache add args [ '0.14.1', null ]
+21 verbose cache add spec 0.14.1
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'react@',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'react',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: 'latest',
+22 silly cache add   type: 'tag' }
+23 silly addNamed react@latest
+24 verbose addNamed "latest" is being treated as a dist-tag for react
+25 info addNameTag [ 'react', 'latest' ]
+26 silly mapToRegistry name react
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/react
+30 verbose addNameTag registry:https://registry.npmjs.org/react not in flight; fetching
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: '0.14.1',
+31 silly cache add   scope: null,
+31 silly cache add   name: '0.14.1',
+31 silly cache add   rawSpec: '',
+31 silly cache add   spec: 'latest',
+31 silly cache add   type: 'tag' }
+32 silly addNamed 0.14.1@latest
+33 verbose addNamed "latest" is being treated as a dist-tag for 0.14.1
+34 info addNameTag [ '0.14.1', 'latest' ]
+35 silly mapToRegistry name 0.14.1
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/0.14.1
+39 verbose addNameTag registry:https://registry.npmjs.org/0.14.1 not in flight; fetching
+40 verbose request uri https://registry.npmjs.org/0.14.1
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 4:30:11 PM
+43 verbose request id 8af77110962a89b5
+44 http request GET https://registry.npmjs.org/0.14.1
+45 verbose request uri https://registry.npmjs.org/react
+46 verbose request no auth needed
+47 info attempt registry request try #1 at 4:30:11 PM
+48 verbose etag "3K6GHNU5RST0RSNARAO42WOCB"
+49 http request GET https://registry.npmjs.org/react
+50 http 200 https://registry.npmjs.org/react
+51 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 verbose headers   etag: '"7FP6HAWCRN2XHVOVIUFLXIBK4"',
+51 verbose headers   'content-type': 'application/json',
+51 verbose headers   'content-encoding': 'gzip',
+51 verbose headers   'cache-control': 'max-age=300',
+51 verbose headers   'content-length': '11442',
+51 verbose headers   'accept-ranges': 'bytes',
+51 verbose headers   date: 'Wed, 13 Apr 2016 22:30:11 GMT',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   age: '80',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'x-served-by': 'cache-sjc3124-SJC',
+51 verbose headers   'x-cache': 'HIT',
+51 verbose headers   'x-cache-hits': '3',
+51 verbose headers   'x-timer': 'S1460586611.691487,VS0,VE0',
+51 verbose headers   vary: 'Accept-Encoding' }
+52 silly get cb [ 200,
+52 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 silly get     etag: '"7FP6HAWCRN2XHVOVIUFLXIBK4"',
+52 silly get     'content-type': 'application/json',
+52 silly get     'content-encoding': 'gzip',
+52 silly get     'cache-control': 'max-age=300',
+52 silly get     'content-length': '11442',
+52 silly get     'accept-ranges': 'bytes',
+52 silly get     date: 'Wed, 13 Apr 2016 22:30:11 GMT',
+52 silly get     via: '1.1 varnish',
+52 silly get     age: '80',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-served-by': 'cache-sjc3124-SJC',
+52 silly get     'x-cache': 'HIT',
+52 silly get     'x-cache-hits': '3',
+52 silly get     'x-timer': 'S1460586611.691487,VS0,VE0',
+52 silly get     vary: 'Accept-Encoding' } ]
+53 verbose get saving react to C:\Users\I54659\AppData\Roaming\npm-cache\registry.npmjs.org\react\.cache.json
+54 http 404 https://registry.npmjs.org/0.14.1
+55 verbose headers { 'content-type': 'application/json',
+55 verbose headers   'cache-control': 'max-age=0',
+55 verbose headers   'content-length': '2',
+55 verbose headers   'accept-ranges': 'bytes',
+55 verbose headers   date: 'Wed, 13 Apr 2016 22:30:11 GMT',
+55 verbose headers   via: '1.1 varnish',
+55 verbose headers   age: '0',
+55 verbose headers   connection: 'keep-alive',
+55 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+55 verbose headers   'x-cache': 'MISS',
+55 verbose headers   'x-cache-hits': '0',
+55 verbose headers   'x-timer': 'S1460586611.691427,VS0,VE35',
+55 verbose headers   vary: 'Accept-Encoding' }
+56 silly get cb [ 404,
+56 silly get   { 'content-type': 'application/json',
+56 silly get     'cache-control': 'max-age=0',
+56 silly get     'content-length': '2',
+56 silly get     'accept-ranges': 'bytes',
+56 silly get     date: 'Wed, 13 Apr 2016 22:30:11 GMT',
+56 silly get     via: '1.1 varnish',
+56 silly get     age: '0',
+56 silly get     connection: 'keep-alive',
+56 silly get     'x-served-by': 'cache-sjc3135-SJC',
+56 silly get     'x-cache': 'MISS',
+56 silly get     'x-cache-hits': '0',
+56 silly get     'x-timer': 'S1460586611.691427,VS0,VE35',
+56 silly get     vary: 'Accept-Encoding' } ]
+57 silly addNameTag next cb for react with tag latest
+58 silly addNamed react@15.0.1
+59 verbose addNamed "15.0.1" is a plain semver version for react
+60 silly cache afterAdd react@15.0.1
+61 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\react\15.0.1\package\package.json not in flight; writing
+62 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\react\15.0.1\package\package.json written
+63 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/0.14.1
+63 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+63 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+63 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+63 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+63 verbose stack     at emitTwo (events.js:87:13)
+63 verbose stack     at Request.emit (events.js:172:7)
+63 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1082:10)
+63 verbose stack     at emitOne (events.js:82:20)
+63 verbose stack     at Request.emit (events.js:169:7)
+63 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+64 verbose statusCode 404
+65 verbose pkgid 0.14.1
+66 verbose cwd c:\React
+67 error Windows_NT 10.0.10586
+68 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react@" "0.14.1"
+69 error node v4.3.1
+70 error npm  v2.14.12
+71 error code E404
+72 error 404 Registry returned 404 for GET on https://registry.npmjs.org/0.14.1
+72 error 404
+72 error 404 '0.14.1' is not in the npm registry.
+72 error 404 You should bug the author to publish it (or use the name yourself!)
+72 error 404 It was specified as a dependency of 'reactProject'
+72 error 404
+72 error 404 Note that you can also install from a
+72 error 404 tarball, folder, http url, or git url.
+73 verbose exit [ 1, true ]
