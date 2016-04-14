@@ -44,9 +44,9 @@ var Profile = React.createClass({
         </div>
         <div className="col-md-4">
           <Notes
-          username={this.props.params.username}
-          notes={this.state.notes}
-          addNote={this.handleAddNote} />
+            username={this.props.params.username}
+            notes={this.state.notes}
+            addNote={this.handleAddNote} />
         </div>
       </div>
     )
