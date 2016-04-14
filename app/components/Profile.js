@@ -20,16 +20,12 @@ var Profile = React.createClass({
 
   componentDidMount: function(){
     this.ref = new Firebase('https://notetaker-th-test.firebaseio.com/');
-    var childRef = this.ref.child(this.props.params.username);
-    this.bindAsArray(childRef, 'notes');
+    this.init(this.props.params.username);
+  },
 
-    helpers.getGithubInfo(this.props.params.username)
-      .then(function(data){
-        this.setState({
-          bio: data.bio,
-          repos: data.repos
-        });
-      }.bind(this));
+  componentWillReceiveProps: function(nextProps){
+    this.unbind('notes');
+    this.init(nextProps.params.username);
   },
 
   handleAddNote: function(newNote){
@@ -40,6 +36,18 @@ var Profile = React.createClass({
     this.unbind('notes');
   },
 
+  init: function(username){
+    var childRef = this.ref.child(username);
+    this.bindAsArray(childRef, 'notes');
+
+    helpers.getGithubInfo(username)
+      .then(function(data){
+        this.setState({
+          bio: data.bio,
+          repos: data.repos
+        });
+      }.bind(this));
+  },
   render: function(){
     return (
       <div className="row">

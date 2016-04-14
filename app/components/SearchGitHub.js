@@ -12,9 +12,9 @@ var SearchGitHub = React.createClass({
     if(username == "" || username == null){
         username = "facebook";
     }
-    
+
     this.usernameRef.value = '';
-    this.history.pushState(null, "profile/" + username);
+    this.history.pushState(null, "/profile/" + username);
   },
   render: function(){
     return (
