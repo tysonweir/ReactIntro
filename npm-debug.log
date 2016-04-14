@@ -3,162 +3,817 @@
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
 1 verbose cli   '--save',
-1 verbose cli   'react@',
-1 verbose cli   '0.14.1' ]
+1 verbose cli   'axios' ]
 2 info using npm@2.14.12
 3 info using node@v4.3.1
 4 verbose install initial load of c:\React\package.json
-5 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-core\package.json
-6 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-loader\package.json
-7 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-preset-es2015\package.json
-8 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-preset-react\package.json
-9 verbose installManyTop reading scoped package data from c:\React\node_modules\firebase\package.json
-10 verbose installManyTop reading scoped package data from c:\React\node_modules\history\package.json
-11 verbose installManyTop reading scoped package data from c:\React\node_modules\react\package.json
-12 verbose installManyTop reading scoped package data from c:\React\node_modules\react-dom\package.json
-13 verbose installManyTop reading scoped package data from c:\React\node_modules\react-router\package.json
-14 verbose installManyTop reading scoped package data from c:\React\node_modules\reactfire\package.json
-15 verbose installManyTop reading scoped package data from c:\React\node_modules\webpack\package.json
-16 info package.json firebase@2.4.2 No license field.
-17 verbose readDependencies loading dependencies from c:\React\package.json
-18 silly cache add args [ 'react@', null ]
-19 verbose cache add spec react@
-20 silly cache add args [ '0.14.1', null ]
-21 verbose cache add spec 0.14.1
+5 verbose installManyTop reading scoped package data from c:\React\node_modules\axios\package.json
+6 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-core\package.json
+7 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-loader\package.json
+8 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-preset-es2015\package.json
+9 verbose installManyTop reading scoped package data from c:\React\node_modules\babel-preset-react\package.json
+10 verbose installManyTop reading scoped package data from c:\React\node_modules\firebase\package.json
+11 verbose installManyTop reading scoped package data from c:\React\node_modules\history\package.json
+12 verbose installManyTop reading scoped package data from c:\React\node_modules\react\package.json
+13 verbose installManyTop reading scoped package data from c:\React\node_modules\react-dom\package.json
+14 verbose installManyTop reading scoped package data from c:\React\node_modules\react-router\package.json
+15 verbose installManyTop reading scoped package data from c:\React\node_modules\reactfire\package.json
+16 verbose installManyTop reading scoped package data from c:\React\node_modules\webpack\package.json
+17 info package.json firebase@2.4.2 No license field.
+18 verbose readDependencies loading dependencies from c:\React\package.json
+19 verbose install axios is installed as 0.8.0
+20 silly cache add args [ 'axios', null ]
+21 verbose cache add spec axios
 22 silly cache add parsed spec Result {
-22 silly cache add   raw: 'react@',
+22 silly cache add   raw: 'axios',
 22 silly cache add   scope: null,
-22 silly cache add   name: 'react',
+22 silly cache add   name: 'axios',
 22 silly cache add   rawSpec: '',
 22 silly cache add   spec: 'latest',
 22 silly cache add   type: 'tag' }
-23 silly addNamed react@latest
-24 verbose addNamed "latest" is being treated as a dist-tag for react
-25 info addNameTag [ 'react', 'latest' ]
-26 silly mapToRegistry name react
+23 silly addNamed axios@latest
+24 verbose addNamed "latest" is being treated as a dist-tag for axios
+25 info addNameTag [ 'axios', 'latest' ]
+26 silly mapToRegistry name axios
 27 silly mapToRegistry using default registry
 28 silly mapToRegistry registry https://registry.npmjs.org/
-29 silly mapToRegistry uri https://registry.npmjs.org/react
-30 verbose addNameTag registry:https://registry.npmjs.org/react not in flight; fetching
-31 silly cache add parsed spec Result {
-31 silly cache add   raw: '0.14.1',
-31 silly cache add   scope: null,
-31 silly cache add   name: '0.14.1',
-31 silly cache add   rawSpec: '',
-31 silly cache add   spec: 'latest',
-31 silly cache add   type: 'tag' }
-32 silly addNamed 0.14.1@latest
-33 verbose addNamed "latest" is being treated as a dist-tag for 0.14.1
-34 info addNameTag [ '0.14.1', 'latest' ]
-35 silly mapToRegistry name 0.14.1
-36 silly mapToRegistry using default registry
-37 silly mapToRegistry registry https://registry.npmjs.org/
-38 silly mapToRegistry uri https://registry.npmjs.org/0.14.1
-39 verbose addNameTag registry:https://registry.npmjs.org/0.14.1 not in flight; fetching
-40 verbose request uri https://registry.npmjs.org/0.14.1
-41 verbose request no auth needed
-42 info attempt registry request try #1 at 4:30:11 PM
-43 verbose request id 8af77110962a89b5
-44 http request GET https://registry.npmjs.org/0.14.1
-45 verbose request uri https://registry.npmjs.org/react
-46 verbose request no auth needed
-47 info attempt registry request try #1 at 4:30:11 PM
-48 verbose etag "3K6GHNU5RST0RSNARAO42WOCB"
-49 http request GET https://registry.npmjs.org/react
-50 http 200 https://registry.npmjs.org/react
-51 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-51 verbose headers   etag: '"7FP6HAWCRN2XHVOVIUFLXIBK4"',
-51 verbose headers   'content-type': 'application/json',
-51 verbose headers   'content-encoding': 'gzip',
-51 verbose headers   'cache-control': 'max-age=300',
-51 verbose headers   'content-length': '11442',
-51 verbose headers   'accept-ranges': 'bytes',
-51 verbose headers   date: 'Wed, 13 Apr 2016 22:30:11 GMT',
-51 verbose headers   via: '1.1 varnish',
-51 verbose headers   age: '80',
-51 verbose headers   connection: 'keep-alive',
-51 verbose headers   'x-served-by': 'cache-sjc3124-SJC',
-51 verbose headers   'x-cache': 'HIT',
-51 verbose headers   'x-cache-hits': '3',
-51 verbose headers   'x-timer': 'S1460586611.691487,VS0,VE0',
-51 verbose headers   vary: 'Accept-Encoding' }
-52 silly get cb [ 200,
-52 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-52 silly get     etag: '"7FP6HAWCRN2XHVOVIUFLXIBK4"',
-52 silly get     'content-type': 'application/json',
-52 silly get     'content-encoding': 'gzip',
-52 silly get     'cache-control': 'max-age=300',
-52 silly get     'content-length': '11442',
-52 silly get     'accept-ranges': 'bytes',
-52 silly get     date: 'Wed, 13 Apr 2016 22:30:11 GMT',
-52 silly get     via: '1.1 varnish',
-52 silly get     age: '80',
-52 silly get     connection: 'keep-alive',
-52 silly get     'x-served-by': 'cache-sjc3124-SJC',
-52 silly get     'x-cache': 'HIT',
-52 silly get     'x-cache-hits': '3',
-52 silly get     'x-timer': 'S1460586611.691487,VS0,VE0',
-52 silly get     vary: 'Accept-Encoding' } ]
-53 verbose get saving react to C:\Users\I54659\AppData\Roaming\npm-cache\registry.npmjs.org\react\.cache.json
-54 http 404 https://registry.npmjs.org/0.14.1
-55 verbose headers { 'content-type': 'application/json',
-55 verbose headers   'cache-control': 'max-age=0',
-55 verbose headers   'content-length': '2',
-55 verbose headers   'accept-ranges': 'bytes',
-55 verbose headers   date: 'Wed, 13 Apr 2016 22:30:11 GMT',
-55 verbose headers   via: '1.1 varnish',
-55 verbose headers   age: '0',
-55 verbose headers   connection: 'keep-alive',
-55 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
-55 verbose headers   'x-cache': 'MISS',
-55 verbose headers   'x-cache-hits': '0',
-55 verbose headers   'x-timer': 'S1460586611.691427,VS0,VE35',
-55 verbose headers   vary: 'Accept-Encoding' }
-56 silly get cb [ 404,
-56 silly get   { 'content-type': 'application/json',
-56 silly get     'cache-control': 'max-age=0',
-56 silly get     'content-length': '2',
-56 silly get     'accept-ranges': 'bytes',
-56 silly get     date: 'Wed, 13 Apr 2016 22:30:11 GMT',
-56 silly get     via: '1.1 varnish',
-56 silly get     age: '0',
-56 silly get     connection: 'keep-alive',
-56 silly get     'x-served-by': 'cache-sjc3135-SJC',
-56 silly get     'x-cache': 'MISS',
-56 silly get     'x-cache-hits': '0',
-56 silly get     'x-timer': 'S1460586611.691427,VS0,VE35',
-56 silly get     vary: 'Accept-Encoding' } ]
-57 silly addNameTag next cb for react with tag latest
-58 silly addNamed react@15.0.1
-59 verbose addNamed "15.0.1" is a plain semver version for react
-60 silly cache afterAdd react@15.0.1
-61 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\react\15.0.1\package\package.json not in flight; writing
-62 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\react\15.0.1\package\package.json written
-63 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/0.14.1
-63 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
-63 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
-63 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
-63 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
-63 verbose stack     at emitTwo (events.js:87:13)
-63 verbose stack     at Request.emit (events.js:172:7)
-63 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1082:10)
-63 verbose stack     at emitOne (events.js:82:20)
-63 verbose stack     at Request.emit (events.js:169:7)
-63 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
-64 verbose statusCode 404
-65 verbose pkgid 0.14.1
-66 verbose cwd c:\React
-67 error Windows_NT 10.0.10586
-68 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react@" "0.14.1"
-69 error node v4.3.1
-70 error npm  v2.14.12
-71 error code E404
-72 error 404 Registry returned 404 for GET on https://registry.npmjs.org/0.14.1
-72 error 404
-72 error 404 '0.14.1' is not in the npm registry.
-72 error 404 You should bug the author to publish it (or use the name yourself!)
-72 error 404 It was specified as a dependency of 'reactProject'
-72 error 404
-72 error 404 Note that you can also install from a
-72 error 404 tarball, folder, http url, or git url.
-73 verbose exit [ 1, true ]
+29 silly mapToRegistry uri https://registry.npmjs.org/axios
+30 verbose addNameTag registry:https://registry.npmjs.org/axios not in flight; fetching
+31 verbose request uri https://registry.npmjs.org/axios
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 1:20:29 PM
+34 verbose request id 23b2656cb9e82544
+35 verbose etag "4A4JLMJDZWMG27K2RBL1O6VF5"
+36 http request GET https://registry.npmjs.org/axios
+37 http 304 https://registry.npmjs.org/axios
+38 verbose headers { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+38 verbose headers   via: '1.1 varnish',
+38 verbose headers   'cache-control': 'max-age=300',
+38 verbose headers   etag: '"4A4JLMJDZWMG27K2RBL1O6VF5"',
+38 verbose headers   age: '11',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'x-served-by': 'cache-lax1420-LAX',
+38 verbose headers   'x-cache': 'HIT',
+38 verbose headers   'x-cache-hits': '1',
+38 verbose headers   'x-timer': 'S1460661630.056339,VS0,VE0',
+38 verbose headers   vary: 'Accept-Encoding' }
+39 silly get cb [ 304,
+39 silly get   { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+39 silly get     via: '1.1 varnish',
+39 silly get     'cache-control': 'max-age=300',
+39 silly get     etag: '"4A4JLMJDZWMG27K2RBL1O6VF5"',
+39 silly get     age: '11',
+39 silly get     connection: 'keep-alive',
+39 silly get     'x-served-by': 'cache-lax1420-LAX',
+39 silly get     'x-cache': 'HIT',
+39 silly get     'x-cache-hits': '1',
+39 silly get     'x-timer': 'S1460661630.056339,VS0,VE0',
+39 silly get     vary: 'Accept-Encoding' } ]
+40 verbose etag https://registry.npmjs.org/axios from cache
+41 verbose get saving axios to C:\Users\I54659\AppData\Roaming\npm-cache\registry.npmjs.org\axios\.cache.json
+42 silly addNameTag next cb for axios with tag latest
+43 silly addNamed axios@0.9.1
+44 verbose addNamed "0.9.1" is a plain semver version for axios
+45 silly mapToRegistry name axios
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/axios
+49 verbose addRemoteTarball https://registry.npmjs.org/axios/-/axios-0.9.1.tgz not in flight; adding
+50 verbose addRemoteTarball [ 'https://registry.npmjs.org/axios/-/axios-0.9.1.tgz',
+50 verbose addRemoteTarball   '95608b16447ee29b033589854c3fc7ee2c06bf6e' ]
+51 info retry fetch attempt 1 at 1:20:30 PM
+52 info attempt registry request try #1 at 1:20:30 PM
+53 http fetch GET https://registry.npmjs.org/axios/-/axios-0.9.1.tgz
+54 http fetch 200 https://registry.npmjs.org/axios/-/axios-0.9.1.tgz
+55 silly fetchAndShaCheck shasum 95608b16447ee29b033589854c3fc7ee2c06bf6e
+56 verbose addTmpTarball C:\Users\I54659\AppData\Local\Temp\npm-500-c44f021c\registry.npmjs.org\axios\-\axios-0.9.1.tgz not in flight; adding
+57 verbose addTmpTarball already have metadata; skipping unpack for axios@0.9.1
+58 silly cache afterAdd axios@0.9.1
+59 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\axios\0.9.1\package\package.json not in flight; writing
+60 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\axios\0.9.1\package\package.json written
+61 silly install resolved [ { name: 'axios',
+61 silly install resolved     version: '0.9.1',
+61 silly install resolved     description: 'Promise based HTTP client for the browser and node.js',
+61 silly install resolved     main: 'index.js',
+61 silly install resolved     scripts:
+61 silly install resolved      { build: 'grunt build',
+61 silly install resolved        test: 'grunt test',
+61 silly install resolved        start: 'node ./sandbox/server.js',
+61 silly install resolved        examples: 'node ./examples/server.js',
+61 silly install resolved        coveralls: 'cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js' },
+61 silly install resolved     repository:
+61 silly install resolved      { type: 'git',
+61 silly install resolved        url: 'git+https://github.com/mzabriskie/axios.git' },
+61 silly install resolved     keywords: [ 'xhr', 'http', 'ajax', 'promise', 'node' ],
+61 silly install resolved     author: { name: 'Matt Zabriskie' },
+61 silly install resolved     license: 'MIT',
+61 silly install resolved     bugs: { url: 'https://github.com/mzabriskie/axios/issues' },
+61 silly install resolved     homepage: 'https://github.com/mzabriskie/axios',
+61 silly install resolved     devDependencies:
+61 silly install resolved      { coveralls: '2.11.6',
+61 silly install resolved        'es6-promise': '3.0.2',
+61 silly install resolved        grunt: '0.4.5',
+61 silly install resolved        'grunt-banner': '0.6.0',
+61 silly install resolved        'grunt-cli': '0.1.13',
+61 silly install resolved        'grunt-contrib-clean': '0.7.0',
+61 silly install resolved        'grunt-contrib-nodeunit': '0.4.1',
+61 silly install resolved        'grunt-contrib-watch': '0.6.1',
+61 silly install resolved        'grunt-eslint': '17.3.1',
+61 silly install resolved        'grunt-karma': '0.12.1',
+61 silly install resolved        'grunt-ts': '5.3.2',
+61 silly install resolved        'grunt-update-json': '0.2.2',
+61 silly install resolved        'grunt-webpack': '1.0.11',
+61 silly install resolved        'istanbul-instrumenter-loader': '^0.1.3',
+61 silly install resolved        'jasmine-core': '2.4.1',
+61 silly install resolved        karma: '0.13.19',
+61 silly install resolved        'karma-coverage': '0.5.3',
+61 silly install resolved        'karma-jasmine': '0.3.6',
+61 silly install resolved        'karma-jasmine-ajax': '0.1.13',
+61 silly install resolved        'karma-phantomjs-launcher': '0.2.3',
+61 silly install resolved        'karma-sinon': '1.0.4',
+61 silly install resolved        'karma-sourcemap-loader': '0.3.7',
+61 silly install resolved        'karma-webpack': '1.7.0',
+61 silly install resolved        'load-grunt-tasks': '3.4.0',
+61 silly install resolved        minimist: '1.2.0',
+61 silly install resolved        phantomjs: '1.9.19',
+61 silly install resolved        webpack: '1.12.11',
+61 silly install resolved        'webpack-dev-server': '1.14.1' },
+61 silly install resolved     browser: { './lib/adapters/http.js': './lib/adapters/xhr.js' },
+61 silly install resolved     typescript: { definition: './axios.d.ts' },
+61 silly install resolved     dependencies: { 'follow-redirects': '0.0.7' },
+61 silly install resolved     gitHead: '5176623d6c70e9d66c17f7867703a8e9990554bd',
+61 silly install resolved     _id: 'axios@0.9.1',
+61 silly install resolved     _shasum: '95608b16447ee29b033589854c3fc7ee2c06bf6e',
+61 silly install resolved     _from: 'axios@latest',
+61 silly install resolved     _npmVersion: '2.14.3',
+61 silly install resolved     _nodeVersion: '3.3.1',
+61 silly install resolved     _npmUser: { name: 'mzabriskie', email: 'mzabriskie@gmail.com' },
+61 silly install resolved     maintainers: [ [Object] ],
+61 silly install resolved     dist:
+61 silly install resolved      { shasum: '95608b16447ee29b033589854c3fc7ee2c06bf6e',
+61 silly install resolved        tarball: 'https://registry.npmjs.org/axios/-/axios-0.9.1.tgz' },
+61 silly install resolved     directories: {},
+61 silly install resolved     _resolved: 'https://registry.npmjs.org/axios/-/axios-0.9.1.tgz' } ]
+62 info install axios@0.9.1 into c:\React
+63 info installOne axios@0.9.1
+64 verbose installOne of axios to c:\React not in flight; installing
+65 verbose lock using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\axios-b514497a565438a5.lock for c:\React\node_modules\axios
+66 silly install write writing axios 0.9.1 to c:\React\node_modules\axios
+67 verbose unbuild node_modules\axios
+68 info preuninstall axios@0.8.0
+69 info uninstall axios@0.8.0
+70 verbose unbuild rmStuff axios@0.8.0 from c:\React\node_modules
+71 info postuninstall axios@0.8.0
+72 silly gentlyRm c:\React\node_modules\axios is being purged from base c:\React
+73 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios
+74 silly vacuum-fs purging c:\React\node_modules\axios
+75 silly vacuum-fs quitting because other entries in c:\React\node_modules
+76 verbose tar unpack C:\Users\I54659\AppData\Roaming\npm-cache\axios\0.9.1\package.tgz
+77 verbose tar unpacking to c:\React\node_modules\axios
+78 silly gentlyRm c:\React\node_modules\axios is being purged
+79 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios
+80 silly gunzTarPerm modes [ '777', '666' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+85 silly gunzTarPerm extractEntry LICENSE
+86 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+87 silly gunzTarPerm extractEntry index.js
+88 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+89 silly gunzTarPerm extractEntry UPGRADE_GUIDE.md
+90 silly gunzTarPerm modified mode [ 'UPGRADE_GUIDE.md', 420, 438 ]
+91 silly gunzTarPerm extractEntry axios.d.ts
+92 silly gunzTarPerm modified mode [ 'axios.d.ts', 420, 438 ]
+93 silly gunzTarPerm extractEntry dist/axios.js
+94 silly gunzTarPerm modified mode [ 'dist/axios.js', 420, 438 ]
+95 silly gunzTarPerm extractEntry dist/axios.min.js
+96 silly gunzTarPerm modified mode [ 'dist/axios.min.js', 420, 438 ]
+97 silly gunzTarPerm extractEntry dist/axios.map
+98 silly gunzTarPerm modified mode [ 'dist/axios.map', 420, 438 ]
+99 silly gunzTarPerm extractEntry dist/axios.min.map
+100 silly gunzTarPerm modified mode [ 'dist/axios.min.map', 420, 438 ]
+101 silly gunzTarPerm extractEntry http_proxy.txt
+102 silly gunzTarPerm modified mode [ 'http_proxy.txt', 420, 438 ]
+103 silly gunzTarPerm extractEntry CHANGELOG.md
+104 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+105 silly gunzTarPerm extractEntry lib/axios.js
+106 silly gunzTarPerm modified mode [ 'lib/axios.js', 420, 438 ]
+107 silly gunzTarPerm extractEntry lib/defaults.js
+108 silly gunzTarPerm modified mode [ 'lib/defaults.js', 420, 438 ]
+109 silly gunzTarPerm extractEntry lib/utils.js
+110 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+111 silly gunzTarPerm extractEntry lib/adapters/http.js
+112 silly gunzTarPerm modified mode [ 'lib/adapters/http.js', 420, 438 ]
+113 silly gunzTarPerm extractEntry lib/adapters/xhr.js
+114 silly gunzTarPerm modified mode [ 'lib/adapters/xhr.js', 420, 438 ]
+115 silly gunzTarPerm extractEntry lib/core/InterceptorManager.js
+116 silly gunzTarPerm modified mode [ 'lib/core/InterceptorManager.js', 420, 438 ]
+117 silly gunzTarPerm extractEntry lib/core/dispatchRequest.js
+118 silly gunzTarPerm modified mode [ 'lib/core/dispatchRequest.js', 420, 438 ]
+119 silly gunzTarPerm extractEntry lib/helpers/bind.js
+120 silly gunzTarPerm modified mode [ 'lib/helpers/bind.js', 420, 438 ]
+121 silly gunzTarPerm extractEntry lib/helpers/buildURL.js
+122 silly gunzTarPerm modified mode [ 'lib/helpers/buildURL.js', 420, 438 ]
+123 silly gunzTarPerm extractEntry lib/helpers/combineURLs.js
+124 silly gunzTarPerm modified mode [ 'lib/helpers/combineURLs.js', 420, 438 ]
+125 silly gunzTarPerm extractEntry lib/helpers/cookies.js
+126 silly gunzTarPerm modified mode [ 'lib/helpers/cookies.js', 420, 438 ]
+127 silly gunzTarPerm extractEntry lib/helpers/btoa.js
+128 silly gunzTarPerm modified mode [ 'lib/helpers/btoa.js', 420, 438 ]
+129 silly gunzTarPerm extractEntry lib/helpers/isAbsoluteURL.js
+130 silly gunzTarPerm modified mode [ 'lib/helpers/isAbsoluteURL.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry lib/helpers/isURLSameOrigin.js
+132 silly gunzTarPerm modified mode [ 'lib/helpers/isURLSameOrigin.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry lib/helpers/parseHeaders.js
+134 silly gunzTarPerm modified mode [ 'lib/helpers/parseHeaders.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry lib/helpers/spread.js
+136 silly gunzTarPerm modified mode [ 'lib/helpers/spread.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry lib/helpers/transformData.js
+138 silly gunzTarPerm modified mode [ 'lib/helpers/transformData.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry lib/helpers/deprecatedMethod.js
+140 silly gunzTarPerm modified mode [ 'lib/helpers/deprecatedMethod.js', 420, 438 ]
+141 verbose write writing to c:\React\node_modules\axios\package.json
+142 info preinstall axios@0.9.1
+143 verbose readDependencies loading dependencies from c:\React\node_modules\axios\package.json
+144 silly prepareForInstallMany adding follow-redirects@0.0.7 from axios dependencies
+145 verbose readDependencies loading dependencies from c:\React\node_modules\axios\package.json
+146 silly cache add args [ 'follow-redirects@0.0.7', null ]
+147 verbose cache add spec follow-redirects@0.0.7
+148 silly cache add parsed spec Result {
+148 silly cache add   raw: 'follow-redirects@0.0.7',
+148 silly cache add   scope: null,
+148 silly cache add   name: 'follow-redirects',
+148 silly cache add   rawSpec: '0.0.7',
+148 silly cache add   spec: '0.0.7',
+148 silly cache add   type: 'version' }
+149 silly addNamed follow-redirects@0.0.7
+150 verbose addNamed "0.0.7" is a plain semver version for follow-redirects
+151 silly mapToRegistry name follow-redirects
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/follow-redirects
+155 verbose addNameVersion registry:https://registry.npmjs.org/follow-redirects not in flight; fetching
+156 verbose request uri https://registry.npmjs.org/follow-redirects
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 1:20:30 PM
+159 verbose etag "8GEBBW3L6JAN7NFKYFJCQBAN"
+160 http request GET https://registry.npmjs.org/follow-redirects
+161 http 304 https://registry.npmjs.org/follow-redirects
+162 verbose headers { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+162 verbose headers   via: '1.1 varnish',
+162 verbose headers   'cache-control': 'max-age=300',
+162 verbose headers   etag: '"8GEBBW3L6JAN7NFKYFJCQBAN"',
+162 verbose headers   age: '0',
+162 verbose headers   connection: 'keep-alive',
+162 verbose headers   'x-served-by': 'cache-lax1422-LAX',
+162 verbose headers   'x-cache': 'HIT',
+162 verbose headers   'x-cache-hits': '1',
+162 verbose headers   'x-timer': 'S1460661630.722604,VS0,VE47',
+162 verbose headers   vary: 'Accept-Encoding' }
+163 silly get cb [ 304,
+163 silly get   { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+163 silly get     via: '1.1 varnish',
+163 silly get     'cache-control': 'max-age=300',
+163 silly get     etag: '"8GEBBW3L6JAN7NFKYFJCQBAN"',
+163 silly get     age: '0',
+163 silly get     connection: 'keep-alive',
+163 silly get     'x-served-by': 'cache-lax1422-LAX',
+163 silly get     'x-cache': 'HIT',
+163 silly get     'x-cache-hits': '1',
+163 silly get     'x-timer': 'S1460661630.722604,VS0,VE47',
+163 silly get     vary: 'Accept-Encoding' } ]
+164 verbose etag https://registry.npmjs.org/follow-redirects from cache
+165 verbose get saving follow-redirects to C:\Users\I54659\AppData\Roaming\npm-cache\registry.npmjs.org\follow-redirects\.cache.json
+166 silly cache afterAdd follow-redirects@0.0.7
+167 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\follow-redirects\0.0.7\package\package.json not in flight; writing
+168 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\follow-redirects\0.0.7\package\package.json written
+169 silly install resolved [ { name: 'follow-redirects',
+169 silly install resolved     version: '0.0.7',
+169 silly install resolved     description: 'HTTP and HTTPS modules that follow redirects.',
+169 silly install resolved     main: 'index.js',
+169 silly install resolved     scripts:
+169 silly install resolved      { test: 'npm run cover && npm run lint && npm run style',
+169 silly install resolved        lint: 'jshint *.js test/*.js test/**/*.js',
+169 silly install resolved        style: 'jscs *.js && jscs test/*.js test/**/*.js --config=test/.jscsrc',
+169 silly install resolved        cover: 'BLUEBIRD_DEBUG=1 istanbul cover ./node_modules/.bin/_mocha',
+169 silly install resolved        debug: 'BLUEBIRD_DEBUG=1 mocha' },
+169 silly install resolved     repository:
+169 silly install resolved      { type: 'git',
+169 silly install resolved        url: 'git+ssh://git@github.com/olalonde/follow-redirects.git' },
+169 silly install resolved     homepage: 'https://github.com/olalonde/follow-redirects',
+169 silly install resolved     bugs: { url: 'https://github.com/olalonde/follow-redirects/issues' },
+169 silly install resolved     keywords:
+169 silly install resolved      [ 'http',
+169 silly install resolved        'https',
+169 silly install resolved        'url',
+169 silly install resolved        'redirect',
+169 silly install resolved        'client',
+169 silly install resolved        'location',
+169 silly install resolved        'utility' ],
+169 silly install resolved     author:
+169 silly install resolved      { name: 'Olivier Lalonde',
+169 silly install resolved        email: 'olalonde@gmail.com',
+169 silly install resolved        url: 'http://www.syskall.com' },
+169 silly install resolved     contributors: [ [Object] ],
+169 silly install resolved     files: [ 'index.js', 'create.js', 'http.js', 'https.js' ],
+169 silly install resolved     dependencies: { debug: '^2.2.0', 'stream-consume': '^0.1.0' },
+169 silly install resolved     devDependencies:
+169 silly install resolved      { bluebird: '^2.9.30',
+169 silly install resolved        'concat-stream': '^1.5.0',
+169 silly install resolved        coveralls: '^2.11.2',
+169 silly install resolved        express: '^4.13.0',
+169 silly install resolved        istanbul: '^0.3.17',
+169 silly install resolved        jscs: '^1.13.1',
+169 silly install resolved        jshint: '^2.8.0',
+169 silly install resolved        mocha: '^2.2.5',
+169 silly install resolved        semver: '~4.3.6' },
+169 silly install resolved     license: 'MIT',
+169 silly install resolved     gitHead: '5137f3958a179f0bf9310886edb77efd3b85a208',
+169 silly install resolved     _id: 'follow-redirects@0.0.7',
+169 silly install resolved     _shasum: '34b90bab2a911aa347571da90f22bd36ecd8a919',
+169 silly install resolved     _from: 'follow-redirects@0.0.7',
+169 silly install resolved     _npmVersion: '2.14.2',
+169 silly install resolved     _nodeVersion: '0.12.7',
+169 silly install resolved     _npmUser: { name: 'james.talmage', email: 'james@talmage.io' },
+169 silly install resolved     dist:
+169 silly install resolved      { shasum: '34b90bab2a911aa347571da90f22bd36ecd8a919',
+169 silly install resolved        tarball: 'https://registry.npmjs.org/follow-redirects/-/follow-redirects-0.0.7.tgz' },
+169 silly install resolved     maintainers: [ [Object], [Object] ],
+169 silly install resolved     directories: {},
+169 silly install resolved     _resolved: 'https://registry.npmjs.org/follow-redirects/-/follow-redirects-0.0.7.tgz',
+169 silly install resolved     readme: 'ERROR: No README data found!' } ]
+170 info install follow-redirects@0.0.7 into c:\React\node_modules\axios
+171 info installOne follow-redirects@0.0.7
+172 verbose installOne of follow-redirects to c:\React\node_modules\axios not in flight; installing
+173 verbose lock using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\follow-redirects-91fd53f50fb329de.lock for c:\React\node_modules\axios\node_modules\follow-redirects
+174 silly install write writing follow-redirects 0.0.7 to c:\React\node_modules\axios\node_modules\follow-redirects
+175 verbose unbuild node_modules\axios\node_modules\follow-redirects
+176 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects is being purged from base c:\React
+177 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects
+178 verbose tar unpack C:\Users\I54659\AppData\Roaming\npm-cache\follow-redirects\0.0.7\package.tgz
+179 verbose tar unpacking to c:\React\node_modules\axios\node_modules\follow-redirects
+180 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects is being purged
+181 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects
+182 silly gunzTarPerm modes [ '777', '666' ]
+183 silly gunzTarPerm extractEntry package.json
+184 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+185 silly gunzTarPerm extractEntry README.md
+186 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+187 silly gunzTarPerm extractEntry create.js
+188 silly gunzTarPerm modified mode [ 'create.js', 420, 438 ]
+189 silly gunzTarPerm extractEntry http.js
+190 silly gunzTarPerm modified mode [ 'http.js', 420, 438 ]
+191 silly gunzTarPerm extractEntry https.js
+192 silly gunzTarPerm modified mode [ 'https.js', 420, 438 ]
+193 silly gunzTarPerm extractEntry index.js
+194 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+195 verbose write writing to c:\React\node_modules\axios\node_modules\follow-redirects\package.json
+196 info preinstall follow-redirects@0.0.7
+197 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\package.json
+198 silly prepareForInstallMany adding debug@^2.2.0 from follow-redirects dependencies
+199 silly prepareForInstallMany adding stream-consume@^0.1.0 from follow-redirects dependencies
+200 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\package.json
+201 silly cache add args [ 'debug@^2.2.0', null ]
+202 verbose cache add spec debug@^2.2.0
+203 silly cache add args [ 'stream-consume@^0.1.0', null ]
+204 verbose cache add spec stream-consume@^0.1.0
+205 silly cache add parsed spec Result {
+205 silly cache add   raw: 'debug@^2.2.0',
+205 silly cache add   scope: null,
+205 silly cache add   name: 'debug',
+205 silly cache add   rawSpec: '^2.2.0',
+205 silly cache add   spec: '>=2.2.0 <3.0.0',
+205 silly cache add   type: 'range' }
+206 silly addNamed debug@>=2.2.0 <3.0.0
+207 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for debug
+208 silly addNameRange { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: false }
+209 silly mapToRegistry name debug
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npmjs.org/
+212 silly mapToRegistry uri https://registry.npmjs.org/debug
+213 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+214 silly cache add parsed spec Result {
+214 silly cache add   raw: 'stream-consume@^0.1.0',
+214 silly cache add   scope: null,
+214 silly cache add   name: 'stream-consume',
+214 silly cache add   rawSpec: '^0.1.0',
+214 silly cache add   spec: '>=0.1.0 <0.2.0',
+214 silly cache add   type: 'range' }
+215 silly addNamed stream-consume@>=0.1.0 <0.2.0
+216 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for stream-consume
+217 silly addNameRange { name: 'stream-consume',
+217 silly addNameRange   range: '>=0.1.0 <0.2.0',
+217 silly addNameRange   hasData: false }
+218 silly mapToRegistry name stream-consume
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry https://registry.npmjs.org/
+221 silly mapToRegistry uri https://registry.npmjs.org/stream-consume
+222 verbose addNameRange registry:https://registry.npmjs.org/stream-consume not in flight; fetching
+223 verbose request uri https://registry.npmjs.org/debug
+224 verbose request no auth needed
+225 info attempt registry request try #1 at 1:20:30 PM
+226 verbose etag "A4O4GIOEMGLQCYKOSG0CD3VZS"
+227 http request GET https://registry.npmjs.org/debug
+228 verbose request uri https://registry.npmjs.org/stream-consume
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 1:20:30 PM
+231 verbose etag "1770FDU89W1VB7XTN5JD0WQDW"
+232 http request GET https://registry.npmjs.org/stream-consume
+233 http 304 https://registry.npmjs.org/debug
+234 verbose headers { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+234 verbose headers   via: '1.1 varnish',
+234 verbose headers   'cache-control': 'max-age=300',
+234 verbose headers   etag: '"A4O4GIOEMGLQCYKOSG0CD3VZS"',
+234 verbose headers   age: '165',
+234 verbose headers   connection: 'keep-alive',
+234 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+234 verbose headers   'x-cache': 'HIT',
+234 verbose headers   'x-cache-hits': '22',
+234 verbose headers   'x-timer': 'S1460661630.949411,VS0,VE0',
+234 verbose headers   vary: 'Accept-Encoding' }
+235 silly get cb [ 304,
+235 silly get   { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+235 silly get     via: '1.1 varnish',
+235 silly get     'cache-control': 'max-age=300',
+235 silly get     etag: '"A4O4GIOEMGLQCYKOSG0CD3VZS"',
+235 silly get     age: '165',
+235 silly get     connection: 'keep-alive',
+235 silly get     'x-served-by': 'cache-lax1428-LAX',
+235 silly get     'x-cache': 'HIT',
+235 silly get     'x-cache-hits': '22',
+235 silly get     'x-timer': 'S1460661630.949411,VS0,VE0',
+235 silly get     vary: 'Accept-Encoding' } ]
+236 verbose etag https://registry.npmjs.org/debug from cache
+237 verbose get saving debug to C:\Users\I54659\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+238 http 304 https://registry.npmjs.org/stream-consume
+239 verbose headers { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+239 verbose headers   via: '1.1 varnish',
+239 verbose headers   'cache-control': 'max-age=300',
+239 verbose headers   etag: '"1770FDU89W1VB7XTN5JD0WQDW"',
+239 verbose headers   age: '228',
+239 verbose headers   connection: 'keep-alive',
+239 verbose headers   'x-served-by': 'cache-lax1434-LAX',
+239 verbose headers   'x-cache': 'HIT',
+239 verbose headers   'x-cache-hits': '4',
+239 verbose headers   'x-timer': 'S1460661630.950450,VS0,VE0',
+239 verbose headers   vary: 'Accept-Encoding' }
+240 silly get cb [ 304,
+240 silly get   { date: 'Thu, 14 Apr 2016 19:20:30 GMT',
+240 silly get     via: '1.1 varnish',
+240 silly get     'cache-control': 'max-age=300',
+240 silly get     etag: '"1770FDU89W1VB7XTN5JD0WQDW"',
+240 silly get     age: '228',
+240 silly get     connection: 'keep-alive',
+240 silly get     'x-served-by': 'cache-lax1434-LAX',
+240 silly get     'x-cache': 'HIT',
+240 silly get     'x-cache-hits': '4',
+240 silly get     'x-timer': 'S1460661630.950450,VS0,VE0',
+240 silly get     vary: 'Accept-Encoding' } ]
+241 verbose etag https://registry.npmjs.org/stream-consume from cache
+242 verbose get saving stream-consume to C:\Users\I54659\AppData\Roaming\npm-cache\registry.npmjs.org\stream-consume\.cache.json
+243 silly addNameRange number 2 { name: 'stream-consume',
+243 silly addNameRange   range: '>=0.1.0 <0.2.0',
+243 silly addNameRange   hasData: true }
+244 silly addNameRange versions [ 'stream-consume', [ '0.1.0' ] ]
+245 silly addNamed stream-consume@0.1.0
+246 verbose addNamed "0.1.0" is a plain semver version for stream-consume
+247 silly cache afterAdd stream-consume@0.1.0
+248 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\stream-consume\0.1.0\package\package.json not in flight; writing
+249 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: true }
+250 silly addNameRange versions [ 'debug',
+250 silly addNameRange   [ '0.0.1',
+250 silly addNameRange     '0.1.0',
+250 silly addNameRange     '0.2.0',
+250 silly addNameRange     '0.3.0',
+250 silly addNameRange     '0.4.0',
+250 silly addNameRange     '0.4.1',
+250 silly addNameRange     '0.5.0',
+250 silly addNameRange     '0.6.0',
+250 silly addNameRange     '0.7.0',
+250 silly addNameRange     '0.7.1',
+250 silly addNameRange     '0.7.2',
+250 silly addNameRange     '0.7.3',
+250 silly addNameRange     '0.7.4',
+250 silly addNameRange     '0.8.0',
+250 silly addNameRange     '0.8.1',
+250 silly addNameRange     '1.0.0',
+250 silly addNameRange     '1.0.1',
+250 silly addNameRange     '1.0.2',
+250 silly addNameRange     '1.0.3',
+250 silly addNameRange     '1.0.4',
+250 silly addNameRange     '2.0.0',
+250 silly addNameRange     '2.1.0',
+250 silly addNameRange     '2.1.1',
+250 silly addNameRange     '2.1.2',
+250 silly addNameRange     '2.1.3',
+250 silly addNameRange     '2.2.0' ] ]
+251 silly addNamed debug@2.2.0
+252 verbose addNamed "2.2.0" is a plain semver version for debug
+253 silly cache afterAdd debug@2.2.0
+254 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json not in flight; writing
+255 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\stream-consume\0.1.0\package\package.json written
+256 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json written
+257 silly install resolved [ { name: 'stream-consume',
+257 silly install resolved     version: '0.1.0',
+257 silly install resolved     description: 'Consume a stream to ensure it keeps flowing',
+257 silly install resolved     main: 'index.js',
+257 silly install resolved     scripts: { test: 'mocha' },
+257 silly install resolved     repository:
+257 silly install resolved      { type: 'git',
+257 silly install resolved        url: 'git+https://github.com/aroneous/stream-consume.git' },
+257 silly install resolved     author: { name: 'Aron Nopanen' },
+257 silly install resolved     license: 'MIT',
+257 silly install resolved     bugs: { url: 'https://github.com/aroneous/stream-consume/issues' },
+257 silly install resolved     homepage: 'https://github.com/aroneous/stream-consume',
+257 silly install resolved     devDependencies: { mocha: '^1.20.1', should: '^4.0.4', through2: '^0.5.1' },
+257 silly install resolved     gitHead: '54496fd47e0f10bf6924728ef405b72a4bbad6de',
+257 silly install resolved     _id: 'stream-consume@0.1.0',
+257 silly install resolved     _shasum: 'a41ead1a6d6081ceb79f65b061901b6d8f3d1d0f',
+257 silly install resolved     _from: 'stream-consume@>=0.1.0 <0.2.0',
+257 silly install resolved     _npmVersion: '1.5.0-alpha-3',
+257 silly install resolved     _npmUser: { name: 'aroneous', email: 'aron.nopanen@gmail.com' },
+257 silly install resolved     maintainers: [ [Object] ],
+257 silly install resolved     dist:
+257 silly install resolved      { shasum: 'a41ead1a6d6081ceb79f65b061901b6d8f3d1d0f',
+257 silly install resolved        tarball: 'https://registry.npmjs.org/stream-consume/-/stream-consume-0.1.0.tgz' },
+257 silly install resolved     directories: {},
+257 silly install resolved     _resolved: 'https://registry.npmjs.org/stream-consume/-/stream-consume-0.1.0.tgz',
+257 silly install resolved     readme: 'ERROR: No README data found!' },
+257 silly install resolved   { name: 'debug',
+257 silly install resolved     version: '2.2.0',
+257 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+257 silly install resolved     description: 'small debugging utility',
+257 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+257 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+257 silly install resolved     contributors: [ [Object] ],
+257 silly install resolved     license: 'MIT',
+257 silly install resolved     dependencies: { ms: '0.7.1' },
+257 silly install resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+257 silly install resolved     main: './node.js',
+257 silly install resolved     browser: './browser.js',
+257 silly install resolved     component: { scripts: [Object] },
+257 silly install resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+257 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+257 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+257 silly install resolved     _id: 'debug@2.2.0',
+257 silly install resolved     scripts: {},
+257 silly install resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+257 silly install resolved     _from: 'debug@>=2.2.0 <3.0.0',
+257 silly install resolved     _npmVersion: '2.7.4',
+257 silly install resolved     _nodeVersion: '0.12.2',
+257 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+257 silly install resolved     maintainers: [ [Object], [Object] ],
+257 silly install resolved     dist:
+257 silly install resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+257 silly install resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+257 silly install resolved     directories: {},
+257 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+257 silly install resolved     readme: 'ERROR: No README data found!' } ]
+258 info install stream-consume@0.1.0 into c:\React\node_modules\axios\node_modules\follow-redirects
+259 info install debug@2.2.0 into c:\React\node_modules\axios\node_modules\follow-redirects
+260 info installOne stream-consume@0.1.0
+261 verbose installOne of stream-consume to c:\React\node_modules\axios\node_modules\follow-redirects not in flight; installing
+262 info installOne debug@2.2.0
+263 verbose installOne of debug to c:\React\node_modules\axios\node_modules\follow-redirects not in flight; installing
+264 verbose lock using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\stream-consume-7bb1760da5f87744.lock for c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+265 verbose lock using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\debug-5e809854a726964c.lock for c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+266 silly install write writing stream-consume 0.1.0 to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+267 silly install write writing debug 2.2.0 to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+268 verbose unbuild node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+269 verbose unbuild node_modules\axios\node_modules\follow-redirects\node_modules\debug
+270 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume is being purged from base c:\React
+271 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+272 verbose tar unpack C:\Users\I54659\AppData\Roaming\npm-cache\stream-consume\0.1.0\package.tgz
+273 verbose tar unpacking to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+274 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume is being purged
+275 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+276 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug is being purged from base c:\React
+277 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+278 silly gunzTarPerm modes [ '777', '666' ]
+279 verbose tar unpack C:\Users\I54659\AppData\Roaming\npm-cache\debug\2.2.0\package.tgz
+280 verbose tar unpacking to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+281 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug is being purged
+282 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+283 silly gunzTarPerm modes [ '777', '666' ]
+284 silly gunzTarPerm extractEntry package.json
+285 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+286 silly gunzTarPerm extractEntry package.json
+287 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+288 silly gunzTarPerm extractEntry .npmignore
+289 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+290 silly gunzTarPerm extractEntry README.md
+291 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+292 silly gunzTarPerm extractEntry .npmignore
+293 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+294 silly gunzTarPerm extractEntry node.js
+295 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry debug.js
+297 silly gunzTarPerm modified mode [ 'debug.js', 420, 438 ]
+298 silly gunzTarPerm extractEntry browser.js
+299 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+300 silly gunzTarPerm extractEntry index.js
+301 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry test/tests.js
+303 silly gunzTarPerm modified mode [ 'test/tests.js', 420, 438 ]
+304 silly gunzTarPerm extractEntry Readme.md
+305 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+306 silly gunzTarPerm extractEntry bower.json
+307 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+308 silly gunzTarPerm extractEntry .jshintrc
+309 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+310 silly gunzTarPerm extractEntry component.json
+311 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+312 silly gunzTarPerm extractEntry Makefile
+313 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+314 silly gunzTarPerm extractEntry History.md
+315 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+316 verbose write writing to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume\package.json
+317 info preinstall stream-consume@0.1.0
+318 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume\package.json
+319 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume\package.json
+320 silly install resolved []
+321 verbose about to build c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+322 info build c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+323 info linkStuff stream-consume@0.1.0
+324 silly linkStuff stream-consume@0.1.0 has c:\React\node_modules\axios\node_modules\follow-redirects\node_modules as its parent node_modules
+325 verbose linkBins stream-consume@0.1.0
+326 verbose linkMans stream-consume@0.1.0
+327 verbose rebuildBundles stream-consume@0.1.0
+328 info install stream-consume@0.1.0
+329 info postinstall stream-consume@0.1.0
+330 verbose write writing to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\package.json
+331 verbose unlock done using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\stream-consume-7bb1760da5f87744.lock for c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\stream-consume
+332 info preinstall debug@2.2.0
+333 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\package.json
+334 silly prepareForInstallMany adding ms@0.7.1 from debug dependencies
+335 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\package.json
+336 silly cache add args [ 'ms@0.7.1', null ]
+337 verbose cache add spec ms@0.7.1
+338 silly cache add parsed spec Result {
+338 silly cache add   raw: 'ms@0.7.1',
+338 silly cache add   scope: null,
+338 silly cache add   name: 'ms',
+338 silly cache add   rawSpec: '0.7.1',
+338 silly cache add   spec: '0.7.1',
+338 silly cache add   type: 'version' }
+339 silly addNamed ms@0.7.1
+340 verbose addNamed "0.7.1" is a plain semver version for ms
+341 silly mapToRegistry name ms
+342 silly mapToRegistry using default registry
+343 silly mapToRegistry registry https://registry.npmjs.org/
+344 silly mapToRegistry uri https://registry.npmjs.org/ms
+345 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+346 verbose request uri https://registry.npmjs.org/ms
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 1:20:31 PM
+349 verbose etag "B2DBS4YC371SF2W4UJSD5CFPZ"
+350 http request GET https://registry.npmjs.org/ms
+351 http 304 https://registry.npmjs.org/ms
+352 verbose headers { date: 'Thu, 14 Apr 2016 19:20:31 GMT',
+352 verbose headers   via: '1.1 varnish',
+352 verbose headers   'cache-control': 'max-age=300',
+352 verbose headers   etag: '"B2DBS4YC371SF2W4UJSD5CFPZ"',
+352 verbose headers   age: '213',
+352 verbose headers   connection: 'keep-alive',
+352 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+352 verbose headers   'x-cache': 'HIT',
+352 verbose headers   'x-cache-hits': '25',
+352 verbose headers   'x-timer': 'S1460661631.157539,VS0,VE0',
+352 verbose headers   vary: 'Accept-Encoding' }
+353 silly get cb [ 304,
+353 silly get   { date: 'Thu, 14 Apr 2016 19:20:31 GMT',
+353 silly get     via: '1.1 varnish',
+353 silly get     'cache-control': 'max-age=300',
+353 silly get     etag: '"B2DBS4YC371SF2W4UJSD5CFPZ"',
+353 silly get     age: '213',
+353 silly get     connection: 'keep-alive',
+353 silly get     'x-served-by': 'cache-lax1427-LAX',
+353 silly get     'x-cache': 'HIT',
+353 silly get     'x-cache-hits': '25',
+353 silly get     'x-timer': 'S1460661631.157539,VS0,VE0',
+353 silly get     vary: 'Accept-Encoding' } ]
+354 verbose etag https://registry.npmjs.org/ms from cache
+355 verbose get saving ms to C:\Users\I54659\AppData\Roaming\npm-cache\registry.npmjs.org\ms\.cache.json
+356 silly cache afterAdd ms@0.7.1
+357 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json not in flight; writing
+358 verbose afterAdd C:\Users\I54659\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json written
+359 silly install resolved [ { name: 'ms',
+359 silly install resolved     version: '0.7.1',
+359 silly install resolved     description: 'Tiny ms conversion utility',
+359 silly install resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+359 silly install resolved     main: './index',
+359 silly install resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+359 silly install resolved     component: { scripts: [Object] },
+359 silly install resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+359 silly install resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+359 silly install resolved     homepage: 'https://github.com/guille/ms.js',
+359 silly install resolved     _id: 'ms@0.7.1',
+359 silly install resolved     scripts: {},
+359 silly install resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+359 silly install resolved     _from: 'ms@0.7.1',
+359 silly install resolved     _npmVersion: '2.7.5',
+359 silly install resolved     _nodeVersion: '0.12.2',
+359 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+359 silly install resolved     maintainers: [ [Object] ],
+359 silly install resolved     dist:
+359 silly install resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+359 silly install resolved        tarball: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+359 silly install resolved     directories: {},
+359 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+359 silly install resolved     readme: 'ERROR: No README data found!' } ]
+360 info install ms@0.7.1 into c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+361 info installOne ms@0.7.1
+362 verbose installOne of ms to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug not in flight; installing
+363 verbose lock using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\ms-6bda26823d8ff154.lock for c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+364 silly install write writing ms 0.7.1 to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+365 verbose unbuild node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+366 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms is being purged from base c:\React
+367 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+368 verbose tar unpack C:\Users\I54659\AppData\Roaming\npm-cache\ms\0.7.1\package.tgz
+369 verbose tar unpacking to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+370 silly gentlyRm c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms is being purged
+371 verbose gentlyRm don't care about contents; nuking c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+372 silly gunzTarPerm modes [ '777', '666' ]
+373 silly gunzTarPerm extractEntry package.json
+374 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+375 silly gunzTarPerm extractEntry .npmignore
+376 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+377 silly gunzTarPerm extractEntry README.md
+378 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+379 silly gunzTarPerm extractEntry LICENSE
+380 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+381 silly gunzTarPerm extractEntry index.js
+382 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+383 silly gunzTarPerm extractEntry History.md
+384 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+385 verbose write writing to c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms\package.json
+386 info preinstall ms@0.7.1
+387 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms\package.json
+388 verbose readDependencies loading dependencies from c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms\package.json
+389 silly install resolved []
+390 verbose about to build c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+391 info build c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+392 info linkStuff ms@0.7.1
+393 silly linkStuff ms@0.7.1 has c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules as its parent node_modules
+394 verbose linkBins ms@0.7.1
+395 verbose linkMans ms@0.7.1
+396 verbose rebuildBundles ms@0.7.1
+397 info install ms@0.7.1
+398 info postinstall ms@0.7.1
+399 verbose unlock done using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\ms-6bda26823d8ff154.lock for c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug\node_modules\ms
+400 verbose about to build c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+401 info build c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+402 info linkStuff debug@2.2.0
+403 silly linkStuff debug@2.2.0 has c:\React\node_modules\axios\node_modules\follow-redirects\node_modules as its parent node_modules
+404 verbose linkBins debug@2.2.0
+405 verbose linkMans debug@2.2.0
+406 verbose rebuildBundles debug@2.2.0
+407 verbose rebuildBundles [ 'ms' ]
+408 info install debug@2.2.0
+409 info postinstall debug@2.2.0
+410 verbose unlock done using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\debug-5e809854a726964c.lock for c:\React\node_modules\axios\node_modules\follow-redirects\node_modules\debug
+411 verbose about to build c:\React\node_modules\axios\node_modules\follow-redirects
+412 info build c:\React\node_modules\axios\node_modules\follow-redirects
+413 info linkStuff follow-redirects@0.0.7
+414 silly linkStuff follow-redirects@0.0.7 has c:\React\node_modules\axios\node_modules as its parent node_modules
+415 verbose linkBins follow-redirects@0.0.7
+416 verbose linkMans follow-redirects@0.0.7
+417 verbose rebuildBundles follow-redirects@0.0.7
+418 verbose rebuildBundles [ 'debug', 'stream-consume' ]
+419 info install follow-redirects@0.0.7
+420 info postinstall follow-redirects@0.0.7
+421 verbose unlock done using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\follow-redirects-91fd53f50fb329de.lock for c:\React\node_modules\axios\node_modules\follow-redirects
+422 verbose about to build c:\React\node_modules\axios
+423 info build c:\React\node_modules\axios
+424 info linkStuff axios@0.9.1
+425 silly linkStuff axios@0.9.1 has c:\React\node_modules as its parent node_modules
+426 verbose linkBins axios@0.9.1
+427 verbose linkMans axios@0.9.1
+428 verbose rebuildBundles axios@0.9.1
+429 verbose rebuildBundles [ 'follow-redirects' ]
+430 info install axios@0.9.1
+431 info postinstall axios@0.9.1
+432 verbose unlock done using C:\Users\I54659\AppData\Roaming\npm-cache\_locks\axios-b514497a565438a5.lock for c:\React\node_modules\axios
+433 verbose validateInstall loading c:\React\package.json for validation
+434 verbose stack Error: The package react@15.0.1 does not satisfy its siblings' peerDependencies requirements!
+434 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+434 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+434 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+434 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+434 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+434 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+434 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+434 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+434 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+434 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+435 verbose cwd c:\React
+436 error Windows_NT 10.0.10586
+437 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "axios"
+438 error node v4.3.1
+439 error npm  v2.14.12
+440 error code EPEERINVALID
+441 error peerinvalid The package react@15.0.1 does not satisfy its siblings' peerDependencies requirements!
+441 error peerinvalid Peer react-dom@15.0.1 wants react@^15.0.1
+441 error peerinvalid Peer reactfire@0.6.0 wants react@0.13.x || 0.14.x
+442 verbose exit [ 1, true ]
